@@ -31,7 +31,7 @@ def predicted_value(year: int =Query(...), month: int=Query(...)):
     # json_data = json.load(body_param)
     predicted_values = regression_model.predict([[year, month]])
     return {
-            "predicted value":predicted_values[0]
+            "predicted value":predicted_values[0].round(0)
             }
 
 
