@@ -49,15 +49,6 @@ def predicted_value(request:PredictedRequest):
 
 
     
-        
-
-     
-
-
-
-
-
-
 
 # here we have created the local host server locally 
 
