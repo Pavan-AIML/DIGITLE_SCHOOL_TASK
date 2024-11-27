@@ -6,3 +6,4 @@
 - Fast API to build the app instance.
 - EC2 AWS instance to deploy the model.
 - Also used streamlit for the front-end and the Streamlit server for deploying the model.
+- Used data set https://opendata.muenchen.de/dataset/monatszahlen-verkehrsunfaelle/resource/40094bd6-f82d-4979-949b-26c8dc00b9a7
