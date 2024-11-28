@@ -6,11 +6,6 @@ import pickle
 import json
 
 
-"""
-Creating an instance of FastAPI application.
-
-"""
-
 
 app  = FastAPI() # Fast API is used to create a web application instance.
 
@@ -46,35 +41,18 @@ with year and month as a int query in the same format.
 
 """
 
+
 @app.post("/predict/") #defining the json structure
 # defining the variable in terms of json.
-def predicted_value(year: int =Query(...), month: int=Query(...)): 
+def predicted_value(request:PredictedRequest): 
     # json_data = json.load(body_param)
-    predicted_values = regression_model.predict([[year, month]])
+    predicted_values = regression_model.predict([[request.year, request.month]])
     return {
             "predicted value":predicted_values[0].round(0)
             }
 
-# @app.put("/update/")
-# def update_model_data(year: int = Query(...), month: int = Query(...)):
-#     return {"message": f"Model updated with year={year} and month={month}"}
-
-# # DELETE request to delete some resource or model (again, placeholder example)
-# @app.delete("/delete/")
-# def delete_model_data(year: int = Query(...), month: int = Query(...)):
-
-#     return {"message": f"Model data for year={year} and month={month} deleted"}
-    
 # here we have created the local host server locally 
 
 if __name__ == '__main__':
-
-    """
-    Starting ASGI server with unicorn to listen all the http requests, 
-    run the FastAPI instance by running the app.
-    Ip address of the local machine is 127.0.0.1
-    
-    """
-
-    uvicorn.run(app, host='127.0.0.1', port=8000)
+    uvicorn.run(app, host='127.0.0.1', port=8080)
 
