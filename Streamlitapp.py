@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from pydantic import BaseModel
 # from fastapi import FastAPI, Body, Query
-from pydantic import BaseModel
+# from pydantic import BaseModel
 # import uvicorn
 from typing import Dict
 import pickle
@@ -15,7 +15,7 @@ with st.sidebar:
     st.caption("The data must be enter in the form of Year and month individual values.")
     with st.expander("Data format"):
         st.markdown("year -: XXXX ")
-        st.markdown("Month -: X or XX")
+        st.markdown("month -: X or XX")
     st.divider()
     st.caption("<p style = 'text-align:center'> Developed by Pavan Kumar</p>", unsafe_allow_html = True)
 
