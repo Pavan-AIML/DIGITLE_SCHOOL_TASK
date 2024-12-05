@@ -24,3 +24,6 @@ https://opendata.muenchen.de/dataset/monatszahlen-verkehrsunfaelle/resource/4009
 <h3> The deployed model Final link is given below. Please feel free to test it 🤠 </h3>
 
 https://deathspredictions.streamlit.app/
+
+
+<h2>In this senction we will see how can we deploy the model using docker containers(light weight isolated software packages) in AWS service.</h2>

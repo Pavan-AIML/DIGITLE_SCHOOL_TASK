@@ -28,7 +28,7 @@ then the function below this will be executed.
 """
 @app.get("/")
 def index():
-    return{"message": "Hello, world"}
+    return{"message": "Hello, Stranger"}
 
 
 
