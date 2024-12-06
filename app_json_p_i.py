@@ -48,7 +48,7 @@ def predicted_value(request:PredictedRequest):
     # json_data = json.load(body_param)
     predicted_values = regression_model.predict([[request.year, request.month]])
     return {
-            "predicted value":predicted_values[0].round(0)
+            "prediction":predicted_values[0].round(0)
             }
 
 # here we have created the local host server locally 
