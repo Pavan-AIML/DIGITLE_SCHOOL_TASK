@@ -7,7 +7,7 @@ import json
 
 
 
-app  = FastAPI() # Fast API is used to create a web application instance.
+app = FastAPI() # Fast API is used to create a web application instance.
 
 class PredictedRequest(BaseModel):
     year:int 
@@ -18,7 +18,7 @@ class PredictedRequest(BaseModel):
 # to load it in the server not to include in the requests that is why not after the request .
 
 
-pickle_in = open("regression_model.pkl", "rb") # rb is mode to open pikle file
+pickle_in = open("app/regression_model.pkl", "rb") # rb is mode to open pikle file
 regression_model = pickle.load(pickle_in) # loading the model from pikle 
 
 """
