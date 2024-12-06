@@ -38,6 +38,9 @@
 - Now we will install docker in AWS.
 
 > type command "curl -fsSL https://get.docker.com -o get-docker.sh"
+
 > Then type " yum install docker -y" to install the docker in the remote EC2 instance. 
+
 ![alt text](image-2.png)
+
 > To start the docker "systmectl start docker"
