@@ -47,4 +47,6 @@
 
 - To check the docker status "systemclt status docker"
 
-- In the elastic container services create task defenition and then create clusters.
+- In the elastic container services create task defenition and then create clusters, then inside the task create a service.
+
+- Service is helpful once we are deploying an application and taks when we are deploying a batch that runs discretely. 
