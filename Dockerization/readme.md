@@ -18,12 +18,12 @@
 
 - check the image in to the docker hub.
 
-<h3> Now here we will see how can we deplye the container in AWS Elastic container service </h3>
+<h3> Now here we will see how can we deploy the container in AWS Elastic container service </h3>
 
 - After launching the EC2 instance use public IP-Address to connect with the EC-2 instance remotly. 
 
 
-<h3> To connect the instance to your local machine we use the public ip address and follow th ebelow points</h3>
+<h3> To connect the instance to your local machine we use the public ip address and follow th elbow points</h3>
 
 - go to the directory where .pem key is saved and then activate is by command "chmod 400 kayname.pem"
 
