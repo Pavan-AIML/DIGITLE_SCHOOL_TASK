@@ -1,5 +1,5 @@
 <h2>Building a regression prediction model for the number of deaths in a given month and year </h2>
-<h3> To build this application twe will use feed forward Neural network with the output node number of accidents. </h3>
+<h3> To build this application we will use linear regression model we can choose the other models as welll such as FFNN with relu activation function. </h3>
 <h4> HTTP methods (Hypertext transfer protocol ). They are famous 4 methods called verbs.</h4>
 
 - Client communicates with the server using http requests. 
