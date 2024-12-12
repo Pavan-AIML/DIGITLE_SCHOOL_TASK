@@ -1,4 +1,4 @@
-<h1> Build a docker image and run the container in the AWS service. </h1>
+<h1> Build a docker image and run the container in the AWS Elastic service. </h1>
 
 - After listing all the necessary files in docker file we will create the docker image first by running the command "docker build -t myimage ." (t -> tag it , last . for the docker file in the same directory)
 
