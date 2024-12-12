@@ -31,4 +31,4 @@ https://deathspredictions.streamlit.app/
 - Dockerize the file in Dickerization folder with all the dependencies.
 - Create the docker image.
 - Push the image to docker hub.
-- Deploy the app in AWS EC@ free version instance ( In this between many steps are involved.) 
+- Deploy the app in AWS EC2 free version instance ( In this between many steps are involved.) 
